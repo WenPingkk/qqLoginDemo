@@ -56,7 +56,11 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         mOkHttpPost.setOnClickListener(this);
         mOkHttpRegister = (Button) findViewById(R.id.OkHttp_register);
         mOkHttpRegister.setOnClickListener(this);
+<<<<<<< HEAD
         //mOkHttpLogin = (Button) findViewById(R.id.OkHttp_login);
+=======
+        mOkHttpLogin = (Button) findViewById(R.id.OkHttp_login);
+>>>>>>> a18008bca62debfe663c445f4f928b9c303879ed
         mOkHttpLogin.setOnClickListener(this);
         mNameAndPassword = (EditText) findViewById(R.id.nameAndPassword);
     }
