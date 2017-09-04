@@ -11,17 +11,7 @@ import java.util.Map;
 
 import okhttp3.Call;
 
-<<<<<<< HEAD
 
-=======
-/**
- * ClassName:BaseProtocol
- * Author   :吴通
- * Email    :wutong@itcast.cn
- * Date     :2017/6/26
- * Description: 所有网络请求protocol的基类 get post 文件上传
- */
->>>>>>> a18008bca62debfe663c445f4f928b9c303879ed
 //定义的泛型在loadData(final BaseProtocol.CallBack<RESPONSE> callBack)使用
 public abstract class BaseProtocol<RESPONSE> {
     //所有具有刷新界面网络请求需要的页面数字段
